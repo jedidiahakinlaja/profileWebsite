@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="./images/logo.png" rel="icon"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="./css.css"  type="text/css">
+</head>
+<body>
+<header class="heading">
+            <div class="logo-container">
+                JedTechElectronics<span></span>
+            </div>
+            <div class="link-container">
+               <button class="btn-margin"><a  href="#aboutMe" style="text-decoration: none;">ABOUT ME</a></button>
+               <button class="btn-margin"><a href="#projects" style="text-decoration: none;">PROJECTS</a></button>
+               <button class="btn-margin"><a href="#resume" style="text-decoration: none;">RESUME</a></button>
+               <button class="btn-margin"><a href="#contactMe" style="text-decoration: none;">CONTACT ME</a></button>   
+            </div>
+    </header>
+    <div class="content-aboutme" id="aboutMe">
+        <div class="img-container">
+            <img src="./images/profile pics.jpg" alt="img not found" class="img1"> 
+        </div> 
+        <div class="writing-aboutme">
+            <h3 style="text-align: center;">ABOUT ME</h3>
+            <p style="text-align: center; padding: 10px;">
+            My name is Jedidiah Akinlaja Oluwaferanmi. I'm a Nigerian. I'm a scientist, inverter-technician,
+            Tech Evanglist. I'm currently learning FullStack Web Development with Edureka. HTML5, CSS3, Javascript NodeJS, ReactJs, MongoDB,AngularJS. I've worked in a financial Bank in Nigeria. I'm presently into Oil and
+            Gas Industry.
+            </p>
+        </div>
+    </div>
+    <div class="project-content" id="projects" >
+        <div class="project-heading">PROJECTS</div>
+        <div class="first-product">
+           <img src="./images/inverter profile.jpg" alt="" style="width:100%; height:392px;">
+           <p>Solar Installation product done my me. </p>
+        </div>
+        <div class="first-product">
+            <img src="./images/zomato1.png" alt="" style="width:100%; height:392px;">
+            <p>First zomato Clone designed by me</p>
+         </div>
+         <div class="first-product">
+            <img src="./images/zomato2.png" alt="" style="width:100%; height:392px;">
+            <p>Second zomato Clone designed by me</p>
+         </div>
+    </div>
+    <div class="skill-container">
+        <div class="skills"> Skills </div>
+        <div class="skill-imageContainer">
+            <img src="./images/html.jpg" alt="html image" style="width: 100px; height: 100px; float: left;">
+            <img src="./images/css.png" alt="css image" style="width: 100px; height: 100px; float: left;">
+            <img src="./images/c-2.png" alt="C++ image" style="width: 100px; height: 100px; float: left;">
+            <img src="./images/node.png" alt="node image" style="width: 100px; height: 100px; float: left;">
+            <img src="./images/angular.jpeg" alt="angular image" style="width: 100px; height: 100px; float:left">
+        </div>
+    </div>
+
+    <div style="position:absolute; left:0px; top:1173px; width: 100%; height:247px;" >
+        <div class="wexpWriting"> Work Experience </div>
+        <div class="wexpcontent" id="resume">
+            <table style="height: 156px; width:65%;">
+                <tr>
+                    <th>S/N</th>
+                    <th>Name of Company</th>
+                    <th>Role</th>
+                </tr>
+                <tr style="height: 50px; text-align: center;">
+                    <td>1</td>
+                    <td style="height: 10px;">Prunedge Technology</td>
+                    <td style="height: 10px;">Industrial Trainee</td>
+                </tr>
+                <tr style="height: 50px; text-align: center;">
+                    <td>2</td>
+                    <td style="height: 10px;">PiusPentagon Electronica Limited</td>
+                    <td style="height: 10px;">Corp Member</td>
+                </tr>
+                <tr style="height: 50px; text-align: center;">    
+                    <td>3</td>
+                    <td style="height: 10px;">Zenith Bank Plc International</td>
+                    <td style="height: 10px;">Graduate Assistant</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="contact-container" id="contactMe">
+        <div class="contact"> Contact Me </div>
+        <div class="contact-locationContainer" style="height: 448px;">
+            <div class="location-div" style="display: inline-block; width: 48%; height: 100%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10186.944132150107!2d3.365849480531662!3d7.164944548218299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103a4bd7bec503d9%3A0xae544bd34f3a4c54!2sAbiola%20Way%2C%20Abeokuta%20111101%2C%20Ogun%20State!5e0!3m2!1sen!2sng!4v1705490261313!5m2!1sen!2sng" width="500" style="border:0; height: 100%; " allowfullscreen=""  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="input-field"> 
+                <form action="" style="padding-left: 10px; padding-bottom: 10px;" >
+                    <label for="">FirstName:</label><br><input type="text" value="FirstName" placeholder="FirstName" style="width:80%;height: 50px;"> <br><br>
+                    <label for="">LastName:</label><br> <input type="text" value="LastName" placeholder="LastName" style="width:80%;height: 50px;"><br><br>
+                    <label for="">Email:</label><br><input type="Email" placeholder="Email Address" name="" id=""style="width:80%;height: 50px;"> <br><br>
+                    <label for="">Message</label><br><input type="text" name="message" id="" style="width:80%;height: 150px;"><br><br>
+                    <button style="height: 50px; width: 70px; border-radius: 10px;">Submit</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <hr/>
+            <center>
+                <h3> &copy; &hearts; JEDIDIAH ELECTRONICS 2024 &hearts; </h3>
+                <div style="height: 100px; width:100%; text-align: center;">
+                    <a href="https://x.com/AkinlajaJedidi1" target="_blank"><img src="/images/1692007265x-twitter-logo-png.png" style="width:30px; height: 30px;padding: 2px;" alt=""></a>
+
+                    <a href="https://www.instagram.com/akinlajajedidiah/?hl=en" target="_blank"><img src="./images/logo-ig-png-32464.png" style="width:30px; height: 30px;padding: 2px;" alt=""></a>
+
+                    <a href="https://web.facebook.com/akinlaja.jedidiah.9" target="_blank"><img src="./images/1657548084facebook-logo-png.png" style="width:30px; height: 30px;padding: 2px;" alt=""></a>
+                </div>
+            </center>
+            
+    </footer>
+</body>
+</html>
